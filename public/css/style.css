@@ -1,0 +1,97 @@
+
+        :root {
+            --primary-blue: #0000ff;
+            --bg-light-gray: #f3f4f6;
+            --card-white: #ffffff;
+            --text-dark: #1f2937;
+            --text-medium: #4b5563;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: var(--bg-light-gray);
+            color: var(--text-dark);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+ 
+        .content {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px 15px;
+        }
+
+
+        header, footer {
+            background-color: var(--primary-blue);
+            color: var(--card-white);
+            padding: 20px 15px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0; 
+            font-size: 1.8rem;
+            font-weight: 600;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.8rem;
+            opacity: 0.9;
+        }
+    
+       
+        .biography, .achievements {
+            background-color: var(--card-white);
+            margin-bottom: 25px;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid #e5e7eb;
+        }
+
+        .biography img {
+            
+            width: 150px;
+            height: 220px;
+            border-radius: 6px;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
+        .biography h2, .achievements h2 {
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-top: 0;
+            margin-bottom: 10px;
+            color: var(--primary-blue);
+        }
+
+        .biography p {
+            font-size: 1rem;
+            margin-top: 5px;
+            margin-bottom: 0;
+            color: var(--text-medium);
+            font-style: italic;
+        }
+
+    
+
+            .biography img {
+                margin-bottom: 15px; 
+            }
+            header h1 {
+                font-size: 1.5rem;
+            }
+            .biography, .achievements {
+                padding: 20px 15px;
+            }
+            .achievements li {
+                text-align: left;
+            }
+        
+    
